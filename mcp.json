@@ -1,0 +1,52 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/data/data/com.termux/files/home/expo-projects/ggwaz-app"]
+    },
+    "git": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-git", "--repository", "/data/data/com.termux/files/home/expo-projects/ggwaz-app"]
+    },
+    "web-search": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"]
+    },
+    "expo-mcp": {
+      "command": "npx",
+      "args": ["-y", "@mattlemmone/expo-mcp"]
+    },
+    "expo-docs-mcp": {
+      "command": "npx",
+      "args": ["-y", "expo-docs-mcp"]
+    },
+    "react-native-mcp": {
+      "command": "npx",
+      "args": ["-y", "@patrickkabwe/react-native-mcp"]
+    },
+    "react-analyzer-mcp": {
+      "command": "npx",
+      "args": ["-y", "react-analyzer-mcp"]
+    },
+    "react-native-debugger-mcp": {
+      "command": "npx",
+      "args": ["-y", "@twodoorsdev/react-native-debugger-mcp"]
+    },
+    "xcode-mcp": {
+      "command": "npx",
+      "args": ["-y", "@devyhan/xcode-mcp"]
+    },
+    "augments-mcp": {
+      "command": "npx",
+      "args": ["-y", "@augmnt/augments-mcp-server"]
+    },
+    "mcp-code-runner": {
+      "command": "npx",
+      "args": ["-y", "@axliupore/mcp-code-runner"]
+    },
+    "terminal": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-everything", "bash"]
+    }
+  }
+}
